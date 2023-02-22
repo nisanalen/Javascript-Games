@@ -1,0 +1,53 @@
+.grid{
+    width: 612px;
+    height: 612px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F1DBBF;
+}
+
+.hs{
+    font-size: xx-large;
+    color: goldenrod;
+    animation: example 5s ease-in-out infinite;
+}
+
+@keyframes example {
+    0% { color: rgb(144, 150, 156); }
+    25% { color: rgb(195, 166, 3); }
+    50% { color: goldenrod;}
+    75% { color: orange; }
+    100% { color: rgb(144, 150, 156); }
+  }
+
+h2{
+    text-align: center;
+    color: #AA5656;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border-width: 2px;
+    border-color: #698269;
+    border-style: solid;
+}
+
+.mole{
+    background-image: url('mole.png');
+    background-size: cover;
+}

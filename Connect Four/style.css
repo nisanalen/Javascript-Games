@@ -1,0 +1,50 @@
+.grid {
+    border: 2px solid black;
+    border-top: none;
+    height: 240px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color:blanchedalmond;
+    font-family: 'PT Serif', serif;
+}
+
+h3{
+    text-align: center;
+    color:maroon;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.grid div {
+    height: 38px;
+    width: 38px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+div .taken{
+    border: none;
+}
+
+div .player-one {
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: ease-in-out 0.2s;
+}
+
+div .player-two {
+    background-color: blue;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: ease-in-out 0.2s;
+}

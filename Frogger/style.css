@@ -1,0 +1,94 @@
+.grid {
+    border: 2px solid black;
+    height: 270px;
+    width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*{
+    background-color: #dbb6d6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.restart-button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(147, 210, 212, 0.827);
+    border: 1px solid rgb(147, 210, 212);
+    border-radius: 3px;
+}
+
+.start-pause-button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(147, 210, 212, 0.827);
+    border: 1px solid rgb(147, 210, 212);
+    border-radius: 3px;
+}
+
+.start-pause-button:hover{
+    background-color: rgb(147, 210, 212);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.grid div {
+    height: 30px;
+    width: 30px;
+}
+
+.ending-block{
+    background-color: red;
+}
+
+.starting-block{
+    background-color: blue;
+}
+
+.log-left, .log-right{
+    background-color: lightblue;
+}
+
+.car-left, .car-right{
+    background-color: lightgray;
+}
+
+
+.l1, .l2, .l3{
+    background-color: brown;
+}
+
+.l4, .l5{
+    background-color: lightblue;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2, .c3 {
+    background-color: lightgray;
+}
+
+.frog{
+    background-color: green;
+}
